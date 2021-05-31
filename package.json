@@ -4,7 +4,8 @@
   "description": "study test driven development",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "testwatcher": "jest --watchAll"
   },
   "author": "",
   "license": "ISC",
@@ -12,6 +13,7 @@
     "@babel/cli": "^7.14.3",
     "@babel/core": "^7.14.3",
     "@babel/preset-env": "^7.14.4",
+    "babel-eslint": "^10.1.0",
     "eslint": "^7.27.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.3.0",
